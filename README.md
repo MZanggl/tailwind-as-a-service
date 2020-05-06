@@ -6,15 +6,15 @@ Wrap your favorite routing library, deploy and off you go.
 
 ```javascript
 const inputCSS = `
-@tailwind base;
+  @tailwind base;
 
-@tailwind components;
+  @tailwind components;
 
-@tailwind utilities;
+  @tailwind utilities;
 
-.btn {
-  @apply p-2 bg-teal-400 rounded;
-}
+  .btn {
+    @apply p-2 bg-teal-400 rounded;
+  }
 `
 
 const tailwindConfig = {
